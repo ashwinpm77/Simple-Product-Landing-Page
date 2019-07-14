@@ -1,0 +1,151 @@
+#header {
+    background-color: #f4f4f4;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+#header-img {
+    height: 100px;
+    width: 15%;
+    float: left;
+}
+#heading {
+    width: auto;
+    float: left;
+    padding: 10px;
+    color: #804e4e;
+}
+#link {
+    width: auto;
+    float: right;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+}
+#link > a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+}
+#link > a {
+    color: #804e4e;
+    text-decoration: none;
+}
+
+
+#main {
+    position: relative;
+    top: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2ffdb;
+}
+#form-section {
+    padding-top: 25px;
+}
+#form-heading {
+    text-align: center;
+    color: #a67979;
+}
+#form {
+    text-align: center;
+}
+#email {
+    padding: 7px;
+}
+#submit {
+    padding: 7px;
+    color: #2e1111;
+    background-color: #d93f3f;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+}
+#description-section {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 20px;
+}
+#video-section {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#video {
+    width: 700px;
+}
+#video-section > iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+#flex-section {
+    display: flex;
+}
+#service {
+    text-align: center;
+}
+#flex-section > div {
+    padding: 15px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin: 3px;
+    margin-bottom: 150px;
+}
+
+
+#footer {
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 50px;
+}
+#footer > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+@media (max-width: 840px) {
+    #header {
+        height: auto;
+    }
+    #header-img {
+        width: 80%;
+        margin-left:auto;
+        margin-right: auto;
+        float: none;
+    }
+    #heading {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    #link {
+        width: 100%;
+        float: none;
+        display: flex;
+    }
+    #nav-bar {
+        width: 100%;
+        display: flex;
+    }
+    #flex-section {
+        flex-direction: column;
+    }
+    #video {
+        width: 100%;
+    }
+}
